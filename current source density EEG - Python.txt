@@ -1,0 +1,3 @@
+
+Matlab: https://www.mathworks.com/matlabcentral/fileexchange/69399-current-source-density-csd
+Python: https://mne.tools/stable/auto_examples/preprocessing/eeg_csd.html
