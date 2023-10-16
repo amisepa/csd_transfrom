@@ -34,9 +34,12 @@ end
 
 % Channel locations
 if ~exist('chanlocfile','var') || isempty(chanlocfile)
-    disp('Please select the channel location file corresponding to your EEG montage.')
-    [locname, locpath] = uigetfile2({'*.'}, 'Select channel locations file (.ced, .locs, .xyz)'); 
-    chanlocfile = fullfile(locpath, locname);
+%     disp('Please select the channel location file corresponding to your EEG montage. It must be a .ced file.')
+%     [locname, locpath] = uigetfile2({'*.'}, 'Select channel locations file (.ced, .locs, .xyz)'); 
+%     chanlocfile = fullfile(locpath, locname);
+    locPath = fileparts(which('csd_transform.m'));
+    chanlocfile = fullfile(locPath, 'chanlocs_standard_BEM_1005.ced');
+    disp('Using default BEM 1005 channel locations.')
 end
 EEG = pop_chanedit(EEG,'rplurchanloc',1,'lookup',chanlocfile);
 
@@ -122,8 +125,6 @@ end
 %         z = X(n).^2 + Y(n).^2 + Z(n).^2 - 1; % calculate off sphere surface
 %     end
 % end
-
-
 
 % ConvertLocations(chanlocfile,'chanlocs_csd.csd',{EEG.chanlocs.labels}');
 % M = ExtractMontage('chanlocs_csd.csd', {EEG.chanlocs.labels}');
