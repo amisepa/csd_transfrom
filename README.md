@@ -18,6 +18,22 @@ Convert EEG data to reference-free current-source density (CSD) transformed data
 
 ```EEG = csd_transform(EEG);```
 
+## Comparison with conventional referencing methods
+
+Here is a comparison of ERP between emotional and neutral stimuli (N = 81) for each method, to assess how the referencing method affects statistical results at the group level. 
+
+1) Average-reference
+
+<p width="100%">
+    <img width="50%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_Cluster-corrected.png"> 
+</p>
+
+
+3) REST/infinity reference
+
+4) Surface Laplacian
+
+
 
 ## Literature
 
