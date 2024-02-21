@@ -1,8 +1,19 @@
 # csd_transfrom
 Convert continuous EEG data to reference-free current-source density (CSD) transformed data (i.e., surface Laplacian). 
 
+## Requirements:
+
+- MATLAB installed
+- EEGLAB installed
+- Some EEG data
+
+
 Usage:
 
-Load EEG data into EEGLAB, load channel locations, and type: 
+1) Load EEG data into EEGLAB
 
-```EEG - csd_transform(EEG);```
+2) load channel locations
+
+3) type 
+
+```EEG = csd_transform(EEG);```
