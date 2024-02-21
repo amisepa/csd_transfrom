@@ -30,9 +30,15 @@ Here is a comparison of ERP between emotional and neutral stimuli (N = 81) for e
 
 3) REST/infinity reference
 
+<p width="100%">
+    <img width="40%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_REST_Cluster-corrected.png">  <img width="30%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_REST_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_REST_topo.png"> 
+</p>
+
 4) Surface Laplacian
 
-
+<p width="100%">
+    <img width="40%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_CSD_Cluster-corrected.png">  <img width="30%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_CSD_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_CSD_topo.png"> 
+</p>
 
 ## Literature
 
