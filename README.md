@@ -24,7 +24,8 @@ Here is a comparison of ERP between emotional and neutral stimuli (N = 81) for e
 
 1) Average-reference
 
-![results_AV_Cluster-corrected]([https://github.com/amisepa/csd_transfrom/assets/58382227/6ce07d1e-c94c-442c-a0c6-db20571a1fc8](https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_Cluster-corrected.png)
+![results_AV_Cluster-corrected](https://github.com/amisepa/csd_transfrom/assets/58382227/59d2ec3b-c362-4555-890b-a0defa2dd1c8)
+
 
 
 3) REST/infinity reference
