@@ -1,4 +1,4 @@
-# csd_transfrom / Surface Laplacian
+# Current-source density (CSD) transformation / Surface Laplacian
 Convert EEG data to reference-free current-source density (CSD) transformed data (i.e., surface Laplacian). 
 
 ## Requirements
