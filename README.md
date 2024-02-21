@@ -20,7 +20,7 @@ Convert EEG data to reference-free current-source density (CSD) transformed data
 
 ## Comparison with conventional referencing methods
 
-Here is a comparison of ERP between emotional and neutral stimuli for each method to assess how the referencing method affects statistical results at the group level (N = 81; p<0.01 after spatiotemporal cluster-correction). This illustrates well how CSD-transformation allows to highlight the local brain dynamics, whereas AV- and REST- referenced data focus on global dynamics. 
+Here is a comparison of ERP between emotional and neutral stimuli for each method to assess how the referencing method affects statistical results at the group level (N = 81; p<0.01 after spatiotemporal cluster-correction). This illustrates well how CSD-transformation increases spatial resolution and helps highlight local dynamics, whereas AV- and REST- referenced data increase global dynamics. 
 
 1) Average-reference
 
