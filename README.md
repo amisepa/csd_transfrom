@@ -25,7 +25,7 @@ Here is a comparison of ERP between emotional and neutral stimuli (N = 81) for e
 1) Average-reference
 
 <p width="100%">
-    <img width="50%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_Cluster-corrected.png">  <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_topo.png"> 
+    <img width="50%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_Cluster-corrected.png">  <img width="30%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_topo.png"> 
 </p>
 
 3) REST/infinity reference
