@@ -20,20 +20,25 @@ Convert EEG data to reference-free current-source density (CSD) transformed data
 
 ## Comparison with conventional referencing methods
 
-Here is a comparison of ERP between emotional and neutral stimuli (N = 81) for each method, to assess how the referencing method affects statistical results at the group level. 
+Here is a comparison of ERP between emotional and neutral stimuli for each method to assess how the referencing method affects statistical results at the group level (N = 81; p<0.01 after spatiotemporal cluster-correction). This illustrates well how CSD-transformation allows to highlight the local brain dynamics, whereas AV- and REST- referenced data focus on global dynamics. 
 
 1) Average-reference
 
 <p width="100%">
-    <img width="50%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_Cluster-corrected.png"> 
+    <img width="40%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_Cluster-corrected.png">  <img width="30%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_AV_topo.png"> 
 </p>
-
 
 3) REST/infinity reference
 
+<p width="100%">
+    <img width="40%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_REST_Cluster-corrected.png">  <img width="30%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_REST_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_REST_topo.png"> 
+</p>
+
 4) Surface Laplacian
 
-
+<p width="100%">
+    <img width="40%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_CSD_Cluster-corrected.png">  <img width="30%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_CSD_course.png"> <img width="20%" src="https://github.com/amisepa/csd_transfrom/blob/main/figures/results_CSD_topo.png"> 
+</p>
 
 ## Literature
 
