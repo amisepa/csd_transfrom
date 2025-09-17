@@ -2,6 +2,7 @@
 % tranformation on EEG data using spherical splines.
 %  
 % Inputs: 
+%   EEG             - EEGLAB structure dataset
 %   chanlocfile     - full path and name to file with EEG channel locations of
 %                       the montage used for these data (compatible with .loc, .ced, .xyz files).
 %   mcont           - m-constant between 2 (vey flexible) and 10 (not flexible). Default = 4.
@@ -13,7 +14,7 @@
 %   CSD-transformed EEG data
 % 
 % Usage:
-%   EEG = csd_transform(EEG)
+%   EEG = csd_transform(EEG);
 % 
 % Cedric Cannard, 2022
 % 
