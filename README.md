@@ -10,11 +10,17 @@ Convert EEG data to reference-free current-source density (CSD) transformed data
 
 ## Usage
 
-1) Load EEG data into EEGLAB
+1) Clone (or download + unzip) this repository
 
-2) load channel locations
+3) Add path to matlab (or move folder into eeglab > plugins)
 
-3) type in command window:
+5) Launch EEGLAB
+
+7) Load EEG data into EEGLAB
+
+8) Load your EEG channel locations
+
+9) Type in command window:
 
 ```EEG = csd_transform(EEG);```
 
